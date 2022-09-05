@@ -10,3 +10,9 @@
 * 导航条如下:
   * 首页  |  自我介绍｜我喜欢的明星
 ### 3.要求在网页中插入图片，在页面2中插入一张自己的照片，在网页3中插入自己喜欢的明星的图片
+### page1
+![page1.png](img/page1.png)
+### page2
+![img.png](img/page2.png)
+### page3
+![img.png](img/page3.png)
