@@ -1,0 +1,110 @@
+.topbox > img {
+    width: 20%;
+    height: 80%;
+    padding: 2%;
+
+}
+
+.topbox {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100px;
+    justify-content: space-around;
+
+}
+
+.toplink {
+    height: 20%;
+    margin: 2%;
+    font-size: 20px;
+}
+
+.topinput {
+    width: 80%;
+    height: 200%;
+}
+
+.searchbutton {
+    height: 200%;
+    background-color: #EB5428;
+}
+
+.top-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 60%;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid red;
+    margin-top: 4%;
+    justify-content: space-around;
+    background-color: #856F6C;
+}
+
+.navigation > div {
+    width: 7%;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.center_info{
+    display: flex;
+    border: 2px solid black;
+    height: 1000px;
+}
+.center_left{
+    width: 20%;
+    height: 100%;
+    border: 1px solid #0e6bff;
+}
+.center_right{
+    width: 80%;
+    height: 100%;
+    border: 1px solid red;
+}
+.center_left_title{
+    background-color: lightskyblue;
+    padding-left: 5px;
+}
+.center_left_search{
+    padding: 10px;
+}
+.center_left_xiaobao_leixing > div{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.center_left_xiaobao_leixing > input{
+    margin-top: 10px;
+}
+.center_left_dianpuleimu{
+
+}
+
+.center_right_top{
+    display: flex;
+    flex-wrap: nowrap;
+    border-bottom:2px solid #EB5428;
+}
+.center_right_top > div{
+    width: 10%;
+    height: 40px;
+    margin-right: 10px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+.center_right_top_dianpu{
+    background-color: #EB5428;
+}
+
+.center_right_menu{
+}
+.center_right_goods_list{
+    width: 100%;
+}

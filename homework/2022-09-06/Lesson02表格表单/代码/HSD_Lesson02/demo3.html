@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<form action="demo2.html" method="get">
+			<table border="1" cellspacing="0" align="center">
+				<tr>
+					<td>账号:</td>
+					<td><input type="text" name="name" maxlength="3" /></td>
+				</tr>
+				<tr>
+					<td>密码:</td>
+					<td><input type="password" name="password" /></td>
+				</tr>
+				<tr>
+					<td>电话:</td>
+					<td><input type="tel" name="tel" /></td>
+				</tr>
+				<tr>
+					<td>性别:</td>
+					<td>男:<input type="radio" name="gender" value="boy" />女:<input type="radio" name="gender" value="girl" checked="checked" /></td>
+				</tr>
+				<tr>
+					<td>邮箱:</td>
+					<td><input type="email" name="email" value="luchao7285@163.com" /></td>
+				</tr>
+				<tr>
+					<td>生日:</td>
+					<td><input type="date" /></td>
+				</tr>
+				<tr>
+					<td>地址:</td>
+					<td>
+						<select name="province">
+							<option value="henan">河南省</option>
+							<option value="hubei">湖北省</option>
+						</select>
+						<select name="city">
+							<option value="zhengzhou">郑州市</option>
+							<option value="xinxiang" selected="selected">新乡市</option>
+						</select>
+						<select name="area">
+							<option value="muye">牧野区</option>
+						</select>
+						<br/>
+						<input type="text" name="address" placeholder="请输入详细地址" />
+					</td>
+				</tr>
+				<tr>
+					<td>兴趣:</td>
+					<td>唱:<input type="checkbox" value="song" name="hobby" /> 跳:
+						<input type="checkbox" value="jump" name="hobby" checked="checked" /> rap:
+						<input type="checkbox" value="rap" name="hobby" /> 篮球:
+						<input type="checkbox" value="ball" name="hobby" /></td>
+				</tr>
+				<tr>
+					<td>备注:</td>
+					<td><textarea rows="10" cols="50" name="backup"></textarea></td>
+				</tr>
+				<tr>
+					<td>颜色:</td>
+					<td><input type="color" name="color" /></td>
+				</tr>
+				<tr>
+					<td>文件:</td>
+					<td><input type="file" name="file" /></td>
+				</tr>
+				<tr>
+					<td>图片提交:</td>
+					<td><input type="image" src="img/book.png" name="name" /></td>
+				</tr>
+				<tr>
+					<td>数字:</td>
+					<td><input type="number" name="number" /></td>
+				</tr>
+				<tr>
+					<td>滑块:</td>
+					<td><input type="range" name="range" /></td>
+				</tr>
+				<tr>
+					<td>搜索栏:</td>
+					<td><input type="search" name="search" /></td>
+				</tr>
+				<tr>
+					<td>地址栏:</td>
+					<td><input type="url" name="url" /></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="submit" value="注册" />
+						<input type="reset" value="重置" />
+						<br/>
+						<button type="submit">提交按钮</button>
+						<button type="reset">重置按钮</button>
+						<button type="button">普通按钮</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+
+</html>

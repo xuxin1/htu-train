@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        td{
+           height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" cellspacing="0" width="100%">
+        <tr>
+            <th height="50px" colspan="5">个人简历</th>
+        </tr>
+        <tr>
+            <td width="10%" >姓名：</td>
+            <td width="30%"><input type="text" name="" ></td>
+            <td width="5%">年龄：</td>
+            <td width="10%"><input type="number" min="0" max="150">岁</td>
+            <td rowspan="4" width="20%"></td>
+        </tr>
+        <tr>
+            <td>婚姻状况：</td>
+            <td><input type="radio" name="hunyin">是 <input type="radio" name="hunyin">否</td>
+            <td>民族：</td>
+            <td>
+                <input type="text"  list="typelist" placeholder="请选择">
+                <datalist id="typelist">
+                    　　<option value="hanzu">汉族</option>
+                    　　<option value="huizu">回族</option>
+                    <option value="outher">其他</option>
+                </datalist>
+            </td>
+        </tr>
+        <tr>
+            <td>户口所在地：</td>
+            <td><input type="text" placeholder="请输入户口所在地"> </td>
+            <td>身高：</td>
+            <td><input type="number" min="0"> cm</td>
+        </tr>
+        <tr>
+            <td>目前所在地：</td>
+            <td><input type="text" name="" ></td>
+            <td>政治面貌：</td>
+            <td><input type="text" name="" ></td>
+        </tr>
+        <tr>
+            <td colspan="5"></td>
+        </tr>
+        <tr>
+            <td colspan="5" bgcolor="#6495ed"> 求职意向及工作经历</td>
+        </tr>
+        <tr>
+            <td>人才类型：</td>
+            <td colspan="4"><input type="text" name=""></td>
+        </tr>
+        <tr>
+            <td>应聘职位：</td>
+            <td colspan="4"><input type="text"> </input></td>
+        </tr>
+        <tr>
+            <td>工作年限：</td>
+            <td><input type="number" min="0"></td>
+            <td colspan="2" >职称：</td>
+            <td ><input type="text"></td>
+        </tr>
+        <tr>
+            <td >求职类型：</td>
+            <td><input type="text" placeholder="请输入求职意愿"></td>
+            <td colspan="2">可到职时间：</td>
+            <td ><input type="date"></td>
+        </tr>
+        <tr>
+            <td>月新要求：</td>
+            <td><input type="text" name="" >元</td>
+            <td colspan="2">希望工作区域：</td>
+            <td ><input type="text"></td>
+        </tr>
+        <tr>
+            <td rowspan="3"> 个人工作经历</td>
+            <td rowspan="3" colspan="3" ><textarea name="" id="" cols="100" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="5"></td>
+        </tr>
+        <tr>
+            <td colspan="5"></td>
+        </tr>
+        <tr>
+            <td colspan="5"> </td>
+        </tr>
+        <tr>
+            <td colspan="5" bgcolor="#6495ed">教育背景：</td>
+        </tr>
+        <tr>
+            <td> 毕业院校：</td>
+            <td colspan="4"><input type="text" placeholder="请输入毕业学校"></input></td>
+        </tr>
+        <tr>
+            <td>最高学历：</td>
+            <td><input type="text"></td>
+            <td>毕业日期：</td>
+            <td colspan="2"><input type="date"></td>
+        </tr>
+        <tr>
+            <td >所学专业一：</td>
+            <td><input type="text"></td>
+            <td>所学专业二：</td>
+            <td colspan="2"><input type="text"></td>
+        </tr>
+        <tr >
+            <td rowspan="2">受教育实训经历：</td>
+            <td rowspan="2" colspan="4"><textarea name=""  cols="100" rows="5"></textarea></td>
+        </tr>
+    </table>
+</body>
+</html>

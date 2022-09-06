@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body onload="alert('hello');" onunload="console.log('离开页面');">
+		<form action="demo1.html" onreset="console.log('重置')" onsubmit="console.log('提交')">
+			onchange:<input onchange="alert(2);" /><br />
+			onblur:<input onblur="alert(1);" /><br />
+			onfocus:<input onfocus="console.log('聚焦')" /><br />
+			onselect:<input onselect="console.log('内容被选中');" /><br />
+			onclick:<input onclick="console.log('鼠标单击')" /><br />
+			ondblclick:<input ondblclick="console.log('鼠标双击')" /><br />
+			onmousedown:<input onmousedown="console.log('鼠标按下')" /><br />
+			onmouseup:<input onmouseup="console.log('鼠标松开')" /><br />
+			onmousemove:<input onmousemove="console.log('指针进入')" /><br />
+			onmouseout:<input onmouseout="console.log('指针移出')" /><br />
+			<input type="reset" />
+			<input type="submit" />
+		</form>
+	</body>
+
+</html>
