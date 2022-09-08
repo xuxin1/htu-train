@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			p {
+				width: 300px;
+				height: 100px;
+				line-height: 100px;
+				border: 1px solid red;
+			}
+			/*
+			 * baseline:基线对齐
+			 * top:顶线对齐
+			 * middle:中线对齐
+			 * bottom:底线对齐
+			 */
+			
+			#span1 {
+				line-height: normal;
+				border: 1px solid blue;
+				vertical-align: baseline;
+			}
+			/*
+			 * text-top:行内块级元素顶部与文字对齐
+			 * text-bottom:行内块级元素底部与文字对齐
+			 */
+			
+			img {
+				width: 60px;
+				height: 60px;
+				vertical-align: text-bottom;
+			}
+			/*
+			 * sub:设置参照物下标
+			 * super:设置参照物上标
+			 */
+			
+			#span2 {
+				border: 1px solid blue;
+				vertical-align: super;
+			}
+			
+			#span3 {
+				border: 1px solid blue;
+				vertical-align: 20px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<p>这是一个p标签<span id="span1">这是一个span</span></p>
+		<p>这是一个p标签<img src="img/book.png" /></p>
+		<p>这是一个p标签<span id="span2">这是一个span</span></p>
+		<p>这是一个p标签<span id="span3">这是一个span</span></p>
+
+		<div style="width: 100px;height: 100px;border: 1px solid red;word-wrap: break-word;">This is a veryveryveryvery long word.</div>
+	</body>
+
+</html>
