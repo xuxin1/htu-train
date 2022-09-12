@@ -80,13 +80,60 @@ body{
 
 }
 
+/*商品列表*/
 .good_list{
     width: 60%;
     height: 400px;
     border: 1px solid black;
     margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
 
 }
+
+
+.one_food{
+    width: 30%;
+    height: 150px;
+    /*border: 1px solid red;*/
+    display: flex;
+    margin: 10px;
+
+}
+.food_img_box{
+    width: 50%;
+    height: 150px;
+    border: 1px solid blue;
+}
+.food_img_box img{
+    width: 100%;
+    height: 100%;
+}
+.food_info{
+    font-size: small;
+    /*border: 1px solid olive;*/
+}
+.huiyuan{
+    color: red;
+    font-weight: bolder;
+}
+td:nth-of-type(1){
+    color: #0e6bff;
+    width: 50%;
+}
+
+
+.put_button{
+    width: 60%;
+    height: 20px;
+    background-color: #D5712D;
+    color: white;
+    text-align: center;
+    border-radius:10px ;
+    margin-left: 40%;
+}
+
+/*---------------------*/
 
 .notice{
     width: 20%;
@@ -124,4 +171,34 @@ body{
     width: 80%;
     margin-left: 10%;
 }
+.box2{
+    width: 100%;
+    height: 200px;
+    border: 1px solid purple;
+    background-color: rgba(249,201,115,0.26);
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#my_food_car{
+    color: #f9c76f;
+    font-weight: bolder;
+}
+.car_info table{
+    width: 90%;
+    height: 100px;
+    margin-left: 5%;
+}
+
+/*!*!*销售排行**/
+
+
+
+
+
+
+
+
+
+
 
