@@ -1,21 +1,20 @@
-
-public class Demo2 {
+public class k2 {
 	public static void main(String[] args) {
-		System.out.println("iµÄÑ­»·");
+		System.out.println("iï¿½ï¿½Ñ­ï¿½ï¿½");
 		int i = 5;
 		while (i < 5) {
 			System.out.println(i);
 			i++;
 		}
 
-		System.out.println("jµÄÑ­»·");
+		System.out.println("jï¿½ï¿½Ñ­ï¿½ï¿½");
 		int j = 5;
 		do {
 			System.out.println(j);
 			j++;
 		} while (j < 5);
 
-		System.out.println("mµÄÑ­»·");
+		System.out.println("mï¿½ï¿½Ñ­ï¿½ï¿½");
 		for (int m = 1; m < 5; m++) {
 			System.out.println(m);
 		}
